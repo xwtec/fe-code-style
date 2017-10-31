@@ -13,20 +13,12 @@ http://codeguide.co/
 
 # linter
 
-HTMLHint
+HTMLHint https://github.com/yaniswang/HTMLHint
 
-https://github.com/yaniswang/HTMLHint
+gulp-htmlhint https://www.npmjs.com/package/gulp-htmlhint
 
-gulp-htmlhint
-
-https://www.npmjs.com/package/gulp-htmlhint
-
-fis3-lint-htmlhint
-
-https://www.npmjs.com/package/fis3-lint-htmlhint
+fis3-lint-htmlhint https://www.npmjs.com/package/fis3-lint-htmlhint
 
 # prettier
 
-fis3-postprocessor-html
-
-https://www.npmjs.com/package/fis3-postprocessor-html
+fis3-postprocessor-html https://www.npmjs.com/package/fis3-postprocessor-html
