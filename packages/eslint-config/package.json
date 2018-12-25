@@ -1,5 +1,5 @@
 {
-  "name": "@xwtec/eslint",
+  "name": "@xwtec/eslint-config",
   "version": "0.0.0",
   "description": "xwtec eslint lint config.",
   "main": "index.js",
@@ -23,8 +23,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^3.3.0"
+    "eslint-config-airbnb-base": "^13.1.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
