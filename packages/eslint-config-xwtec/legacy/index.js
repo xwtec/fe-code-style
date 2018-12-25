@@ -7,7 +7,7 @@ module.exports = {
   },
   extends: [
     'airbnb-base/legacy',
-    './rules/index.js',
-    './rules/no-semi.js'
+    '../rules/index.js',
+    '../rules/semi.js'
   ]
 }

@@ -8,6 +8,6 @@ module.exports = {
   extends: [
     'airbnb-base',
     './rules/index.js',
-    './rules/semi.js'
+    './rules/no-semi.js'
   ]
 }
