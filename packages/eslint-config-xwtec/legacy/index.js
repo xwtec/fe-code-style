@@ -9,5 +9,5 @@ module.exports = {
     'airbnb-base/legacy',
     '../rules/index.js',
     '../rules/semi.js'
-  ]
+  ].map(require.resolve)
 }

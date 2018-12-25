@@ -4,6 +4,7 @@
   "main": "./modern/index.js",
   "license": "MIT",
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.3.0"
   }

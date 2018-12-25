@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  parser: require.resolve('babel-eslint'),
   env: {
     es6: true,
     node: true,
@@ -9,5 +10,5 @@ module.exports = {
     'airbnb-base',
     './rules/index.js',
     './rules/semi.js'
-  ]
+  ].map(require.resolve)
 }
