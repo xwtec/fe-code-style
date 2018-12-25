@@ -7,7 +7,7 @@ module.exports = {
     browser: true
   },
   extends: [
-    'airbnb-base',
+    'eslint-config-airbnb-base',
     './rules/index.js',
     './rules/no-semi.js'
   ].map(require.resolve)
