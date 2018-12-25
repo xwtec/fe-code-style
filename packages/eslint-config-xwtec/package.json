@@ -2,10 +2,25 @@
   "name": "eslint-config-xwtec",
   "version": "1.0.0",
   "main": "./modern/index.js",
+  "files": [
+    "./index.js",
+    "./no-semi.js",
+    "./legacy/index.js",
+    "./legacy/no-semi.js",
+    "./rules/index.js",
+    "./rules/semi.js",
+    "./rules/no-semi.js"
+  ],
+  "scripts": {
+    "release": "np --no-yarn --no-cleanup"
+  },
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-prettier": "^3.3.0"
+  },
+  "devDependencies": {
+    "np": "^3.1.0"
   }
 }
