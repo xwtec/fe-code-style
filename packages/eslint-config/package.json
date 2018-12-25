@@ -15,7 +15,9 @@
     "legacy/no-semi.js",
     "rules/index.js",
     "rules/semi.js",
-    "rules/no-semi.js"
+    "rules/no-semi.js",
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "release": "np --no-yarn --no-cleanup"
