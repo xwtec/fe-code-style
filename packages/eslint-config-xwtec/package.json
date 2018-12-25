@@ -1,0 +1,10 @@
+{
+  "name": "eslint-config-xwtec",
+  "version": "1.0.0",
+  "main": "./modern/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0"
+  }
+}
